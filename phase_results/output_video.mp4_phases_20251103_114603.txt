@@ -1,0 +1,18 @@
+机器人操作阶段分析结果
+==================================================
+视频文件: output_video.mp4
+分析时间: 2025-11-03 11:46:03
+==================================================
+
+{
+    "phases": [
+        {
+            "phase_number": 1,
+            "phase_name": "Initial Setup and Plate Removal",
+            "start_time": "0:00",
+            "end_time": "0:15",
+            "description": "The robot arm, equipped with a gripper, enters the scene and begins to remove plates from a black wire rack. It lifts the top plate, which is light blue, and places it on the white table surface. The robot then repositions itself to prepare for the next plate."
+        }
+    ],
+    "summary": "The robot arm removes plates from a rack and places them on a table, demonstrating precise handling and placement."
+}

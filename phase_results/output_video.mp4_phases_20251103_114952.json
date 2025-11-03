@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Robot approaches and picks up top plate",
+      "start_time": "0:00",
+      "end_time": "0:05",
+      "description": "The robot's gripper moves into position and grasps the top plate from the rack. The plate is lifted slightly, indicating the start of the removal process."
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Robot rotates and removes plate from stack",
+      "start_time": "0:05",
+      "end_time": "0:10",
+      "description": "The robot rotates the plate to dislodge it from the stack, then lifts it completely out of the rack. The plate is now fully removed and held by the gripper."
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Robot places plate on table",
+      "start_time": "0:10",
+      "end_time": "0:15",
+      "description": "The robot moves the plate downward and places it gently on the table surface, completing the task of removing the top plate from the rack."
+    }
+  ],
+  "summary": "The robot successfully removes the top plate from a dish rack and places it on the table, demonstrating precise manipulation and placement.",
+  "metadata": {
+    "video_file": "output_video.mp4",
+    "analysis_time": "2025-11-03 11:49:52"
+  }
+}

@@ -1,0 +1,25 @@
+机器人操作阶段分析结果
+==================================================
+视频文件: output_video.mp4
+分析时间: 2025-11-03 11:47:05
+==================================================
+
+{
+    "phases": [
+        {
+            "phase_number": 1,
+            "phase_name": "Robot approaches and picks up the top plate",
+            "start_time": "0:00",
+            "end_time": "0:09",
+            "description": "The robot arm enters the frame from the right side, moves toward the rack, and uses its gripper to grasp the top plate (pink). It lifts the plate vertically, revealing the yellow plate underneath."
+        },
+        {
+            "phase_number": 2,
+            "phase_name": "Robot places the plate on the table",
+            "start_time": "0:09",
+            "end_time": "0:16",
+            "description": "The robot lowers the plate onto the white table surface, positioning it to the right of the rack. It then releases the plate, allowing it to rest on the table before retracting its arm."
+        }
+    ],
+    "summary": "The robot successfully removes the top plate from a rack and places it on the table, demonstrating precise manipulation and placement."
+}
