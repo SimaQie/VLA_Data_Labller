@@ -13,9 +13,9 @@
 - 🔧 可自定义物体词汇表和采样参数
 
 ## 安装依赖
-
+主要依赖为 transformer（需大于4.57.0版本），涉及到模型的导入
 ```bash
-pip install transformers torch av
+pip install -r requirements.txt
 ```
 
 ## 使用方法
