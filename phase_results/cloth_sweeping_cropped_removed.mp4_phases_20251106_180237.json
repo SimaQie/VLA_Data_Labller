@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Robot approaches and grips the towel",
+      "start_time": "0:00",
+      "end_time": "0:05",
+      "description": "The robotic arm moves downward and positions its gripper above a folded green towel on a wooden table. The gripper closes around the towel, securing it."
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Robot lifts and adjusts the towel",
+      "start_time": "0:05",
+      "end_time": "0:15",
+      "description": "The robotic arm lifts the towel slightly, then repositions it on the table, adjusting its orientation to ensure it is properly aligned. The gripper remains engaged throughout."
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Robot releases the towel and retracts",
+      "start_time": "0:15",
+      "end_time": "0:20",
+      "description": "The robotic arm releases the towel, allowing it to rest on the table. The gripper opens, and the arm begins to retract upward, moving away from the towel."
+    }
+  ],
+  "summary": "The robot approaches a folded green towel on a table, grips it, adjusts its position, and then releases it before retracting.",
+  "metadata": {
+    "video_file": "cloth_sweeping_cropped_removed.mp4",
+    "analysis_time": "2025-11-06 18:02:37"
+  }
+}

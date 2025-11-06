@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Robot approaches and grasps the top plate",
+      "start_time": "0:00",
+      "end_time": "0:04",
+      "description": "The robot arm enters the frame from the right side, moving towards the dish rack. It positions itself to grasp the top plate, which is pink, and begins to engage the gripper."
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Robot lifts and removes the top plate",
+      "start_time": "0:04",
+      "end_time": "0:09",
+      "description": "The robotic arm successfully lifts the top plate from the rack. It rotates slightly to adjust its grip and begins to lift the plate vertically away from the rack."
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Robot places the plate on the table",
+      "start_time": "0:09",
+      "end_time": "0:16",
+      "description": "The robot carefully lowers the plate onto the white table surface, ensuring it is placed flat and stable. The arm then retracts slightly, completing the task."
+    }
+  ],
+  "summary": "The robot successfully removes the top plate from the dish rack and places it on the table, demonstrating precise grasping and placement.",
+  "metadata": {
+    "video_file": "output_video.mp4",
+    "analysis_time": "2025-11-06 18:02:15"
+  }
+}

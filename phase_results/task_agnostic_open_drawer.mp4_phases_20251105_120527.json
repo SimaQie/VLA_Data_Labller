@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Robot arm positions itself over buttons",
+      "start_time": "0:00",
+      "end_time": "0:05",
+      "description": "The robotic arm is initially stationary, hovering above three colored buttons (red, blue, green) on a wooden box. It begins to slowly adjust its position, preparing to interact with the buttons."
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Robot arm moves toward the rightmost button",
+      "start_time": "0:05",
+      "end_time": "0:10",
+      "description": "The robotic arm moves its end effector closer to the green button on the right. It adjusts its angle and position, aligning its gripper with the button for potential interaction."
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Robot arm retracts slightly and stabilizes",
+      "start_time": "0:10",
+      "end_time": "0:15",
+      "description": "The robotic arm slightly retracts and stabilizes its position, maintaining alignment with the green button. It appears to be pausing, possibly awaiting a command or preparing for the next action."
+    }
+  ],
+  "summary": "The robotic arm moves toward and aligns with the green button on a wooden box, then stabilizes, indicating preparation for interaction.",
+  "metadata": {
+    "video_file": "task_agnostic_open_drawer.mp4",
+    "analysis_time": "2025-11-05 12:05:27"
+  }
+}

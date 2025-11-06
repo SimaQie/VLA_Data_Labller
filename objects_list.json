@@ -1,0 +1,6 @@
+{
+    "overall": [
+            "robot", "robotic arm", "end effector", "plate", "cup", "rack", "shelf",
+            "table", "box", "container", "bowl", "screwdriver", "gripper", "clothes"
+        ]
+}

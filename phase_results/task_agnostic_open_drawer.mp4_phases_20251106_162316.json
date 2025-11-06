@@ -1,0 +1,30 @@
+{
+  "phases": [
+    {
+      "phase_number": 1,
+      "phase_name": "Robot arm positioning",
+      "start_time": "0:00",
+      "end_time": "0:05",
+      "description": "The robotic arm is initially positioned above a wooden box with three buttons (red, blue, green). The arm moves slightly downward and adjusts its orientation, preparing to interact with the buttons."
+    },
+    {
+      "phase_number": 2,
+      "phase_name": "Button interaction",
+      "start_time": "0:05",
+      "end_time": "0:10",
+      "description": "The robotic arm begins to interact with the buttons on the wooden box. It moves its end effector toward the red button, then shifts to the blue button, and finally to the green button, indicating a sequence of button presses or inspections."
+    },
+    {
+      "phase_number": 3,
+      "phase_name": "Box opening",
+      "start_time": "0:10",
+      "end_time": "0:15",
+      "description": "After interacting with the buttons, the robotic arm moves away from the box and repositions itself. It then begins to open a compartment or drawer located beneath the box, revealing its interior."
+    }
+  ],
+  "summary": "The robot arm interacts with three colored buttons on a wooden box, then opens a compartment below the box, suggesting a sequence of tasks such as button pressing or inspection followed by access to a storage area.",
+  "metadata": {
+    "video_file": "task_agnostic_open_drawer.mp4",
+    "analysis_time": "2025-11-06 16:23:16"
+  }
+}

@@ -1,0 +1,16 @@
+{
+
+  "phase_analysis": {
+    "name": "机器人操作阶段分析",
+    "prompt": "You are a trainer explaining a robot's operation to a new technician. Watch the video and generate a step-by-step guide.\nFor each key step in the operation, identify the exact moment in the video where that step begins. Focus on moments where the robot's primary action changes.\n\nObjects that may appear in the video include: {objects_text}\n\nPlease output the analysis results in JSON format with the following structure:\n\n{{\n    \"phases\": [\n        {{\n            \"phase_number\": 1,\n            \"phase_name\": \"phase name\",\n            \"start_time\": \"0:00\",\n            \"end_time\": \"0:15\",\n            \"description\": \"Detailed description of the operation content, robot actions and objects used in this phase\"\n        }},\n        {{\n            \"phase_number\": 2,\n            \"phase_name\": \"phase name\", \n            \"start_time\": \"0:15\",\n            \"end_time\": \"0:45\",\n            \"description\": \"Detailed description...\"\n        }}\n    ],\n    \"summary\": \"Brief overall summary of the operation\"\n}}\n\nRequirements:\n1. Time format must use \"minutes:seconds\", e.g., \"0:15-0:45\"\n2. Phase names should be concise and clear\nn3. Descriptions should be specific, including objects used and specific actions\n4. Ensure temporal continuity without overlaps\n5. Output ONLY valid JSON, no additional text"
+  },
+
+  "detailed_analysis": {
+    "name": "详细操作分析",
+    "prompt": "You are an expert in robotics analyzing a complex operation. Provide a comprehensive breakdown of each step with technical details.\n\nObjects that may appear in the video include: {objects_text}\n\nPlease output the analysis in JSON format... (其他prompt内容)"
+  },
+  "quick_overview": {
+    "name": "快速概览",
+    "prompt": "Provide a quick overview of the main operation phases with key timestamps.\n\nObjects that may appear in the video include: {objects_text}\n\nPlease output the analysis in JSON format... (其他prompt内容)"
+  }
+}
